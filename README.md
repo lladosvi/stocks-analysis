@@ -11,6 +11,7 @@ The purpose of this project was to refactor a Microsoft Excel VBA code generated
 I downloaded the provided VBS file, opened it and copied the base provided code to the existing micrsoft excel file. Then I followed the instruction to create additional code and complemented with necessary code I copied and modified from the prior code developed before the refactoring. Final code below:
 
 Sub AllStocksAnalysisRefactored()
+
     Dim startTime As Single
     Dim endTime  As Single
 
