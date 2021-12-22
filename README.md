@@ -145,3 +145,7 @@ Below is the performance of the stocsk in 2018 and the respective macro executio
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/96096924/147141479-c273df97-5fe3-493c-8b92-4a778e084713.png)
 
 **Summary**
+
+Refactoring the code helped reduce sigificantly the processing times, In the 2017 analysis the macro run time improved from 1.23 seconds to 0.18 seconds, while in the 2018 analysis the macro run time improved from 1.16 seconds to 0.17 seconds. So in average times improved between 6 and 7 times. On a performance basis the outcome in both cases is the same so I only see an advantage to the refactoring, and no disadvantage once the code is developed and tested.
+
+From a VBA code perspective the refactoring made some of the parts a bit simpler while some other a bit more complex. On the advantage side and what helped reduce the time significanly was the fact that the loops were independant vs a loop inside of another loop. On the other side the language in general and the indexing was a lot more complex, which led to a much longer programing time and a lot more debugging iterations until the code was ready and performing. So for me the code building process took a lot longer in the refactoring but once built the processing times were much shorter. Given we are going from 1 second to a fraction of a second I would not recommend spending the extra time refactoring in thie particular case with 12 stocks only but in a much larger dataset I do see the value of going through this excersise. 
