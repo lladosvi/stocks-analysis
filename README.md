@@ -135,3 +135,13 @@ Sub AllStocksAnalysisRefactored()
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
 End Sub
+
+*Stock Performance Analysis and Excecution Times*
+
+Below is the performance of the stock in 2017 and the respective macro execition time:
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/96096924/147141396-c2f5728f-a436-4cd3-9889-e658c00087ab.png)
+
+Below is the performance of the stock in 2018 and the respective macro execition time:
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/96096924/147141479-c273df97-5fe3-493c-8b92-4a778e084713.png)
+
+**Summary**
